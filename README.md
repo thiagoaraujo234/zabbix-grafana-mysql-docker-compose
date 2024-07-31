@@ -29,8 +29,8 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional utilizado pe
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone https://github.com/thiagoaraujo234/zabbix-grafana-mysql-docker-compose.git
+    cd zabbix-grafana-mysql-docker-compose
     ```
 
 2. Execute o Docker Compose:
@@ -50,6 +50,16 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional utilizado pe
 3. Navegue até a seção de plugins e instale o plugin do Zabbix.
 
 4. Configure o plugin do Zabbix com as informações do seu servidor Zabbix.
+
+## Configuração do Zabbix
+
+1. Acesse o Zabbix
+```
+http://localhost
+```
+2. Faça login com as credenciais padrão (usuário: `Admin`, senha: `zabbix`).
+
+3.  Vá em configurações -> Hosts -> Interfaces ((agent) configure, IP address `127.0.0.1`, DNS name `zabbix-agent` e Port `10050`).
 
 ## Uso
 

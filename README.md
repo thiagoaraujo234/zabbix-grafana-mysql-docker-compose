@@ -54,9 +54,9 @@ O MySQL é um sistema de gerenciamento de banco de dados relacional utilizado pe
 ## Configuração do Zabbix
 
 1. Acesse o Zabbix
-```
-http://localhost
-```
+    ```
+    http://localhost
+    ```
 2. Faça login com as credenciais padrão (usuário: `Admin`, senha: `zabbix`).
 
 3.  Vá em configurações -> Hosts -> Interfaces ((agent) configure, IP address `127.0.0.1`, DNS name `zabbix-agent` e Port `10050`).
